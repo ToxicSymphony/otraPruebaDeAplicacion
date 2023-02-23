@@ -1,0 +1,21 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: medium;
+}
+
+ul li a:hover{
+    cursor: pointer;
+    
+}
+
+.nav-pills li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(0,174,199);
+    
+}
+

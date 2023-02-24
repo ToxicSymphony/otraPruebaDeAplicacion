@@ -9,17 +9,14 @@ export function Rutas() {
   return (
     <>
    
-    <div className="d-flex flex-grow-1">
-      <Sidebar/>
-      <div className="">
-      {/* <Menu /> */}
+    <div className="">
+      <Menu />
       <Routes>
         <Route path="/" exact element={<Noticias />} />
         <Route path="/indicadores" exact element={<Indicadores />}/>
         <Route path="/indicadores/indicador:id" exact element={<Indicador />}/>
       </Routes>
      </div>
-    </div>
     </>
   );
 }

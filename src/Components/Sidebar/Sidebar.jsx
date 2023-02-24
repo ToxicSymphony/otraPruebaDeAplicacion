@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logoSura from "../../assets/logoSura.png";
-import "./Sidebar.css";
+
 
 export const Sidebar = () => {
   return (

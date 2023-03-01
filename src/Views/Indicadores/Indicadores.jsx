@@ -7,7 +7,7 @@ import "./Indicadores.css";
 export const Indicadores = () => {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container">
         <div className="row my-4 ">
           <div className="col-12 d-flex justify-content-center text-center fw-bold">
             <h1>Bienvenido a la seccion de Indicadores</h1>
@@ -18,7 +18,7 @@ export const Indicadores = () => {
           <div className="col-4 col-sm-3">
             <Link
               to="/indicadores/indicador:id"
-              className="col-12 col-sm-12 card shadow bg-lightblue"
+              className="col-12 col-sm-12 card shadow bg-blue"
             >
               <div className="col-12 col-sm-12 d-flex justify-content-center">
                 <img
@@ -43,7 +43,7 @@ export const Indicadores = () => {
           <div className="col-4 col-sm-3">
           <Link
               to="/indicadores/indicador:id"
-              className="col-12 col-sm-12 card shadow bg-lightblue"
+              className="col-12 col-sm-12 card shadow bg-blue"
             >
               <div className="col-12 col-sm-12 d-flex justify-content-center">
                 <img
@@ -68,7 +68,7 @@ export const Indicadores = () => {
           <div className="col-4 col-sm-3">
           <Link
               to="/indicadores/indicador:id"
-              className="col-12 col-sm-12 card shadow bg-lightblue"
+              className="col-12 col-sm-12 card shadow bg-blue"
             >
               <div className="col-12 col-sm-12 d-flex justify-content-center">
                 <img
@@ -96,7 +96,7 @@ export const Indicadores = () => {
           <div className="col-4 col-sm-3">
           <Link
               to="/indicadores/indicador:id"
-              className="col-12 col-sm-12 card shadow bg-lightblue"
+              className="col-12 col-sm-12 card shadow bg-blue"
             >
               <div className="col-12 col-sm-12 d-flex justify-content-center">
                 <img
@@ -121,7 +121,7 @@ export const Indicadores = () => {
           <div className="col-4 col-sm-3">
           <Link
               to="/indicadores/indicador:id"
-              className="col-12 col-sm-12 card shadow bg-lightblue"
+              className="col-12 col-sm-12 card shadow bg-blue"
             >
               <div className="col-12 col-sm-12 d-flex justify-content-center">
                 <img
@@ -146,7 +146,7 @@ export const Indicadores = () => {
           <div className="col-4 col-sm-3">
           <Link
               to="/indicadores/indicador:id"
-              className="col-12 col-sm-12 card shadow bg-lightblue"
+              className="col-12 col-sm-12 card shadow bg-blue"
             >
               <div className="col-12 col-sm-12 d-flex justify-content-center">
                 <img
@@ -174,7 +174,7 @@ export const Indicadores = () => {
           <div className="col-4 col-sm-3">
           <Link
               to="/indicadores/indicador:id"
-              className="col-12 col-sm-12 card shadow bg-lightblue"
+              className="col-12 col-sm-12 card shadow bg-blue"
             >
               <div className="col-12 col-sm-12 d-flex justify-content-center">
                 <img
@@ -199,7 +199,7 @@ export const Indicadores = () => {
           <div className="col-4 col-sm-3">
           <Link
               to="/indicadores/indicador:id"
-              className="col-12 col-sm-12 card shadow bg-lightblue"
+              className="col-12 col-sm-12 card shadow bg-blue"
             >
               <div className="col-12 col-sm-12 d-flex justify-content-center">
                 <img
@@ -224,7 +224,7 @@ export const Indicadores = () => {
           <div className="col-4 col-sm-3">
           <Link
               to="/indicadores/indicador:id"
-              className="col-12 col-sm-12 card shadow bg-lightblue"
+              className="col-12 col-sm-12 card shadow bg-blue"
             >
               <div className="col-12 col-sm-12 d-flex justify-content-center">
                 <img
@@ -247,8 +247,9 @@ export const Indicadores = () => {
             </Link>
           </div>
         </div>
-        <Floatbutton />
+        
       </div>
+      <Floatbutton />
     </>
   );
 };

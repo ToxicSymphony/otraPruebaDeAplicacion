@@ -27,3 +27,4 @@ export const Celulas = () => {
     </div>
   )
 }
+//esto funciona para crear celulas
